@@ -1,7 +1,12 @@
 <template>
-  <p>Hello</p>
+  <div>
+      <post-list/>
+  </div>
 </template>
 
 <script>
-export default {}
+import postList from '../components/app/post/post-list.vue'
+export default {
+  components: { postList },
+}
 </script>

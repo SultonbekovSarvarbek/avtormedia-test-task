@@ -1,0 +1,25 @@
+input,textarea{
+    border:0;
+}
+textarea{
+    width: 100%;
+    display: block;
+    resize: none;
+    white-space: initial;
+    &:focus{
+        outline: 1px solid #D1D1D6;
+        border-radius: 8px;
+        padding: 20px;
+    }
+}
+a{
+    color:inherit;
+    text-decoration: none;
+    &:hover{
+        color:inherit;
+    }
+}
+button{
+    border:0;
+    background: none;
+}
